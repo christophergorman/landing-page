@@ -11,7 +11,9 @@ body {
 }
 
 .header {
-    background-color: #262c3a;
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,12 +23,14 @@ body {
 }
 
 ul {
+    color: #e5e7eb;
     list-style-type: none;
+    font-size: 18px;
     display: flex;
     gap: 20px;
 }
 .section-one {
-    background-color: #262c3a;
+    background-color: #1f2937;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -37,11 +41,18 @@ ul {
 
 .text {
     width: 250px;
-    font-size: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin: 0;
+
 }
 
 button {
-    background-color: rgb(85, 150, 249);
+    background-color: #3882f6;
     color: white;
     font-size: 20px;
     border: none;
@@ -53,6 +64,7 @@ button {
 }
 
 .placeholder {
+    
     background-color: gray;
     padding: 100px;
 }
@@ -60,8 +72,9 @@ button {
 
 
 .section-two-header {
-    color: black;
+    font-size: 32px; 
     font-weight: 700;
+    color: #1f2937;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -96,7 +109,7 @@ button {
 }
 
 .section-three {
-    background-color: lightgray;
+    background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,7 +118,8 @@ button {
 }
 
 .quote {
-    color: rgb(71, 70, 70);
+    color: #1f2937;
+    font-size: 36px;
     width: 600px;
     display: flex;
     justify-content: center;
@@ -129,9 +143,10 @@ button {
 
 .quoter > p {
     margin-top: 0;
+    margin-right: 20px;
 }
 .section-four {
-    background-color: rgb(76, 131, 214);
+    background-color: #3882f6;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -142,7 +157,7 @@ button {
 }
 
  .wrapper2 {
-    background-color: rgb(76, 131, 214);
+    background-color: #3882f6;
     color: white;
     display: block;
     padding: 20px;
@@ -156,7 +171,7 @@ button {
 
 .section-four > div > button {
     
-        background-color: rgb(76, 131, 214);
+        background-color: #3882f6;
         color: white;
         font-size: 20px; 
         border: white 2px solid;
@@ -169,7 +184,7 @@ button {
 }
 
 footer {
-    background-color: #262c3a;
+    background-color: #1f2937;
     color: white;
     display: flex;
     justify-content: center;
